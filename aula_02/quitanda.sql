@@ -152,4 +152,6 @@ GROUP BY tb_categorias.descricao; -- agrupará o resultado por "descrição"
 SELECT *  
 FROM tb_produtos INNER JOIN tb_categorias  
 ON tb_produtos.categoria_id = tb_categorias.id
-WHERE tb_categorias.id = 2; 
+WHERE tb_categorias.id = 3; 
+
+
